@@ -1,4 +1,3 @@
-import { WhiteCard } from "@/components/WhiteCard";
 import { LandingSlice } from "./LandingSlice";
 import { RelocationSlice } from "./RelocationSlice";
 import { GreenBanner } from "@/components/GreenBanner";
@@ -7,6 +6,8 @@ import { CVSlice } from "./CVSlice";
 import { CarreerBoostSlice } from "./CarreerBoostSlice";
 import { ValueSlice } from "./ValueSlice";
 import { WorldSlice } from "./WorldSlice";
+import { TestimonialSlice } from "./TestimonialsSlice";
+import { FinalSlice } from "./FinalSlice";
 
 export default function Home() {
   return (
@@ -42,6 +43,8 @@ export default function Home() {
       />
       <ValueSlice />
       <WorldSlice />
+      <TestimonialSlice />
+      <FinalSlice />
     </div>
   );
 }

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const WorldSlice = () => {
   return (
-    <div className="">
+    <div className="mb-4">
       <div className="bg-lightGreen p-8">
         <div className="text-center text-2xl">Lugares que alcançamos</div>
         <div className="text-center">

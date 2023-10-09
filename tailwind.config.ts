@@ -17,6 +17,7 @@ const config: Config = {
         green: "#00092e",
         lightGreen: "#4ed107",
       },
+      fontFamily: {},
     },
   },
   plugins: [],

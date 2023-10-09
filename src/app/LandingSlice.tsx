@@ -15,7 +15,7 @@ export const LandingSlice = () => {
           src={Logo}
           alt="Logo Rafaeli Gil, um R e um G"
         />
-        <div className="text-lightGreen uppercase flex items-center ml-6">
+        <div className="text-lightGreen uppercase flex items-center justify-around text-2xl w-[70%]">
           Sua consultoria para o sucesso
         </div>
       </div>
